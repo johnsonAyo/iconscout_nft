@@ -42,4 +42,18 @@ export default function Home() {
           console.error(err);
         }
       };
+
+         /*
+        connectWallet: Connects the MetaMask wallet
+      */
+        const connectWallet = async () => {
+          try {
+            // Get the provider from web3Modal, which in our case is MetaMask
+            // When used for the first time, it prompts the user to connect their wallet
+            await getProviderOrSigner();
+            setWalletConnected(true);
+          } catch (err) {
+            console.error(err);
+          }
+        };
 }
