@@ -5,13 +5,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
-  background-image: linear-gradient(to right bottom,
-  rgba(rgb(105, 240, 105), 0.8),
-  rgba(green, 0.8)),
-url(./../public/LW3punks/4.png);
-background-size: cover;
-background-position: top;
-position: relative;
 }
 
 
