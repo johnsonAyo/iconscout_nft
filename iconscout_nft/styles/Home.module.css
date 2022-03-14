@@ -27,6 +27,12 @@ position: relative;
   width: 70%;
   height: 50%;
   margin-left: 20%;
+  transition: all 0.2s;
+}
+
+.image:hover {
+  transform: translateY(0.5rem) translateX(-0.5rem);
+  box-shadow: 0 1rem 2rem rgba(rgb(178, 178, 240) 0.2);
 }
 
 .title {
@@ -41,7 +47,7 @@ position: relative;
 }
 
 .button {
-  background-color: rgb(42, 45, 241);
+  background-color: rgb(75, 78, 230);
   border: none;
   color: #ffffff;
   font-size: 15px;
