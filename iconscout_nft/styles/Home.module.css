@@ -5,7 +5,15 @@
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
+  background-image: linear-gradient(to right bottom,
+  rgba(rgb(105, 240, 105), 0.8),
+  rgba(green, 0.8)),
+url(./../public/LW3punks/4.png);
+background-size: cover;
+background-position: top;
+position: relative;
 }
+
 
 .footer {
   display: flex;
@@ -33,18 +41,18 @@
 }
 
 .button {
-  background-color: blue;
+  background-color: rgb(42, 45, 241);
   border: none;
   color: #ffffff;
   font-size: 15px;
-  width: 200px;
+  width: 15rem;
   cursor: pointer;
   margin-bottom: 2%;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 1rem;
   display: inline-block;
-  border-radius: 5rem;
+  border-radius: 2rem;
   transition: all 0.2s;
   position: relative;
   font-size: 1.5rem;
